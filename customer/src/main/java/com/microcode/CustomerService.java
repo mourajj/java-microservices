@@ -1,5 +1,8 @@
 package com.microcode;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public record CustomerService() {
     public void registerCustomer(CustomerRegistrationRequest request) {
         Customer customer = Customer.builder()
