@@ -19,7 +19,7 @@ public class FraudCheckService {
                         .createdAt(LocalDateTime.now())
                         .build()
         );
-        //todo send notification
+        //todo send notification to kafka
         return false;
     }
 }
