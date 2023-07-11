@@ -19,6 +19,7 @@ public class FraudCheckService {
                         .createdAt(LocalDateTime.now())
                         .build()
         );
+        //todo send notification
         return false;
     }
 }
